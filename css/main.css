@@ -1,0 +1,52 @@
+body {
+  color: #6A7383;
+  font-family: 'Arimo', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+a {
+  color: #6A7383;
+}
+a:hover {
+  color: #AB0634;
+  text-decoration: none;
+}
+.navbar .nav-link {
+  color: #6A7383;
+}
+@media (min-width: 768px) {
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 10px 25px;
+  }
+}
+.active .nav-link, .nav-link:hover {
+  color: #AB0634;
+}
+
+main {
+  flex: 1;
+}
+
+#hpHero h1 {
+  color: #AB0634;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.people .col-md-3 {
+  text-align: center;
+}
+
+#contact #telephone span a {
+  color: #086788;
+}
+
+footer {
+  background-color: #003263;
+  color: #fff;
+  margin-top: 50px;
+}
+footer a {
+  color: #fff;
+}
